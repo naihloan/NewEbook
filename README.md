@@ -1,8 +1,8 @@
 # NewEbook
 
-Here are steps to follow to fetch web material and create an ebook from scraped texts. From several html texts you can collect them and create chapters for a brand new ebook to read in your digital device.
+Fetch web material and create an ebook from scraped texts. From html collected texts you can create sections for a brand new ebook to read in your digital device. Follow these steps to create your own customized book chapters.
 
-## Install pandoc and wget (or use cURL)
+## Install pandoc, calibre, and wget (or use cURL)
 
 ## Fetch web pages from a friendly blog that reviews books
 
