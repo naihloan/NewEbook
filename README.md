@@ -13,7 +13,7 @@ NewEbook
 
 `ls >> 1-toc.md`
 
-The created table of contents file (toc.md) will contain a list of the fetched pages. Acces contents and add markdown notation to set them as table of contents. Create items as a bullet list to show chapters. Connect a reference that links each iece to chapters with hyperlinks. For each chapter add in one line each * + [name or chapter author] + (link). That is, from:
+The created table of contents file (1-toc.md) will contain a list of the fetched pages. Access contents and add markdown notation to set them as table of contents. Create items as a bullet list to show chapters. Connect a reference that links each iece to chapters with hyperlinks. For each chapter add in one line each * + [name or chapter author] + (link). That is, from:
 
 `chapter.md`
 
