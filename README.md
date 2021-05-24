@@ -11,28 +11,29 @@ NewEbook
 
 ## Create items for a table of contents from fetched pages
 
-ls >> 1-toc.md
+`ls >> 1-toc.md`
 
 The created table of contents file (toc.md) will contain a list of the fetched pages. Acces contents and add markdown notation to set them as table of contents. Create items as a bullet list to show chapters. Connect a reference that links each iece to chapters with hyperlinks. For each chapter add in one line each * + [name or chapter author] + (link). That is, from:
 
-chapter.md
+`chapter.md`
 
 to:
 
-* [Author or Title](chaptername.md)
+` * [Author or Title](chaptername.md)`
 
 ## Create a yaml header in the top lines of your (tableofcontents).md file with metadata to add an initial title page:
 
+```
 ---
 title: "The best books that Derek Sivers Recommends and Reviewed"
 author: Several Authors with notes from Derek Sivers' blog 
 date: \today
 ---
-
+```
 
 ## Convert each .html item to .md with pandoc:
 
-pandoc chapter.html -o chapter.md
+`pandoc chapter.html -o chapter.md`
 
 (you can also do this in batch mode, not documented here, yet)
 
@@ -40,17 +41,19 @@ pandoc chapter.html -o chapter.md
 
 ## Add all parts into a single file
 
-*.md >> ebook.md
+` *.md >> ebook.md`
 
 ## Convert them to ebook in different formats
 
+```
 pandoc ebook.md -o ebook.epub
 pandoc ebook.md -o ebook.odt
 pandoc ebook.md -o ebook.pdf
+```
 
 ## To convert from markdown to .mobi use calibre:
 
-ebook-convert "ebook.epub" "ebook.mobi"
+`ebook-convert "ebook.epub" "ebook.mobi"`
 
 ===
 
