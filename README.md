@@ -25,7 +25,7 @@ to:
 
 ```
 ---
-title: "The best books that Derek Sivers Recommends and Reviewed"
+title: "Best books Recommended and Reviewed"
 author: Several Authors with notes from Derek Sivers' blog 
 date: \today
 ---
