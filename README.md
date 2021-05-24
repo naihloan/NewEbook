@@ -1,6 +1,6 @@
 # NewEbook
 
-Fetch web material and create an ebook from scraped texts. From html collected texts you can create sections for a brand new ebook to read in your digital device. Follow these steps to create your own customized book chapters.
+Fetch web material and create an ebook from scraped texts. From HTML collected texts you can create sections for a brand new ebook to read on your digital device. Follow these steps to create your customized book chapters.
 
 ## Install pandoc, calibre, and wget (or use cURL)
 
@@ -8,13 +8,13 @@ Fetch web material and create an ebook from scraped texts. From html collected t
 
 `wget https://sive.rs/book/Mindwise https://sive.rs/book/ThinkingFastAndSlow https://sive.rs/book/StoicJoy https://sive.rs/book/TimeParadox https://sive.rs/book/StumblingOnHappiness https://sive.rs/book/EMythRevisited`
 
-## Make sure that each fetched page has an .html extension, or else add it.
+## Make sure that each fetched page has a .html extension, or else add it.
 
 ## Create items for a table of contents from fetched pages
 
 `ls >> 1-toc.md`
 
-The created table of contents file (1-toc.md) will contain a list of the fetched pages. Access contents and add markdown notation to set them as table of contents. Create items as a bullet list to show chapters. Connect a reference that links each piece to chapters with hyperlinks. For each chapter add, in one line each: * + [name or chapter author] + (link). That is, from:
+The created table of contents file (1-toc.md) will contain a list of the fetched pages. Access contents and add markdown notation to set them as a table of contents. Create items like a bullet list to show chapters. Connect a reference that links each piece to chapters with hyperlinks. For each chapter add, in one line each: * + [name or chapter author] + (link). That is, from:
 
 `chapter.md`
 
@@ -22,7 +22,7 @@ to:
 
 ` * [Author or Title](chaptername.md)`
 
-## Create a yaml header in the top lines of your (tableofcontents).md file with metadata to add an initial title page:
+## Create a YAML header in the top lines of your (table of contents).md file with metadata to add an initial title page:
 
 ```
 ---
@@ -38,7 +38,7 @@ date: \today
 
 (you can also do this in batch mode, not documented here, yet)
 
-(if every chapter has reviewer title you can remove that section manually in each .md chapter file to save visual space and avoid repetition)
+(if every chapter has a reviewer title you can remove that section manually in each .md chapter file to save visual space and avoid repetition)
 
 ## Add all parts into a single file
 
