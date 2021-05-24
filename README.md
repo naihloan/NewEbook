@@ -5,7 +5,7 @@ NewEbook
 
 ## Fetch web pages from a friendly blog that reviews books
 
-wget https://sive.rs/book/Mindwise https://sive.rs/book/ThinkingFastAndSlow https://sive.rs/book/StoicJoy https://sive.rs/book/TimeParadox https://sive.rs/book/StumblingOnHappiness https://sive.rs/book/EMythRevisited
+`wget https://sive.rs/book/Mindwise https://sive.rs/book/ThinkingFastAndSlow https://sive.rs/book/StoicJoy https://sive.rs/book/TimeParadox https://sive.rs/book/StumblingOnHappiness https://sive.rs/book/EMythRevisited`
 
 ## Make sure that each fetched page has an .html extension, or else add it.
 
