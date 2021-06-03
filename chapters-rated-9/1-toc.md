@@ -1,6 +1,6 @@
 ---
-title: "Best books Recommended and Reviewed (Rated 9/10)"
-author: Several Authors with notes from Derek Sivers' blog 
+title: "Books Rated 9/10"
+author: Other several Authors with notes from Derek Sivers' blog 
 date: \today
 ---
 
