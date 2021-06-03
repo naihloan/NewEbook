@@ -10,17 +10,21 @@ Fetch web material and create an ebook from scraped texts. From HTML collected t
 
 ## Make sure that each fetched page has a .html extension, or else add it.
 
+You can do this manually, or in batch. One option is using a combination of ranger file manager and vim annotations to make a bulkrename. If you visually select all files you can add a custom format at the end of each filename. 
+
+`chapter1` becomes `chapter1.html`
+
 ## Create items for a table of contents from fetched pages
 
 `ls >> 1-toc.md`
 
 The created table of contents file (1-toc.md) will contain a list of the fetched pages. Access contents and add markdown notation to set them as a table of contents. Create items like a bullet list to show chapters. Connect a reference that links each piece to chapters with hyperlinks. For each chapter add, in one line each: * + [name or chapter author] + (link). That is, from:
 
-`chapter.md`
+from `chapter.md` to each line in a single row:
 
-to:
-
-` * [Author or Title](chaptername.md)`
+* `[Author and Title](chaptername.md)`
+* `[Following Author and Title](chaptername-n2.md)`
+* `[Following Author and Title](chaptername-n3.md)`
 
 ## Create a YAML header in the top lines of your (table of contents).md file with metadata to add an initial title page:
 
